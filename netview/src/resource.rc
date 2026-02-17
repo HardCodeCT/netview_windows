@@ -1,0 +1,55 @@
+// NetView Resources
+#include <windows.h>
+#include "resource.h"
+
+/* ============================
+   Application Icon
+   ============================ */
+IDI_APPICON ICON "..\\resources\\app_icon.ico"
+
+/* ============================
+   Embedded PNG Icons
+   ============================ */
+IDR_DOWNLOAD_ICON PNG "..\\icons\\download.png"
+IDR_UPLOAD_ICON   PNG "..\\icons\\upload.png"
+IDR_TWITTER_ICON  PNG "..\\icons\\twitter.png"
+IDR_WHATSAPP_ICON PNG "..\\icons\\whatsapp.png"
+IDR_GMAIL_ICON    PNG "..\\icons\\gmail.png"
+IDR_CONTACT_ICON  PNG "..\\icons\\contact.png"
+
+/* ============================
+   Embedded Font
+   ============================ */
+IDR_FONT_AFACAD RCDATA "..\\resources\\AfacadFlux-SemiBold.ttf"
+
+/* ============================
+   Version Information
+   ============================ */
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          0x40004L
+FILETYPE        0x1L
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName",      "NetView Software"
+            VALUE "FileDescription",  "NetView Network Monitor"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "NetView"
+            VALUE "LegalCopyright",   "Copyright (C) 2026"
+            VALUE "OriginalFilename", "NetView.exe"
+            VALUE "ProductName",      "NetView Network Monitor"
+            VALUE "ProductVersion",   "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

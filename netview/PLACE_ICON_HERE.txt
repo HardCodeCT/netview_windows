@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════════════
+  ⚠️  IMPORTANT: ICON REQUIRED FOR BUILD
+═══════════════════════════════════════════════════════════════
+
+Please place your application icon in THIS directory.
+
+FILE NAME: app_icon.ico
+LOCATION:  NetViewInstaller/resources/app_icon.ico
+
+This file is REQUIRED before building the application.
+
+═══════════════════════════════════════════════════════════════
+  HOW TO GET AN ICON:
+═══════════════════════════════════════════════════════════════
+
+OPTION 1 - Quick Free Icon:
+  1. Go to: https://www.flaticon.com
+  2. Search: "network monitor"
+  3. Download any PNG icon (512x512 or larger)
+  4. Convert to .ico: https://convertico.com/
+  5. Select sizes: 16, 32, 48, 256
+  6. Download and save as "app_icon.ico"
+  7. Place in this folder
+
+OPTION 2 - Professional Icon:
+  1. Hire designer on Fiverr ($5-20)
+  2. Request .ico format with multiple sizes
+  3. Or create yourself in GIMP/Photoshop
+  4. Export with sizes: 16, 32, 48, 256
+
+OPTION 3 - Use Placeholder:
+  Quick test icon: https://cdn-icons-png.flaticon.com/512/2099/2099058.png
+  Convert to .ico format at: https://convertico.com/
+
+═══════════════════════════════════════════════════════════════
+  REQUIREMENTS:
+═══════════════════════════════════════════════════════════════
+
+Format:  .ICO file
+Sizes:   Must include: 16x16, 32x32, 48x48, 256x256
+Name:    Must be exactly "app_icon.ico"
+Theme:   Network/monitoring related (blue/green colors)
+
+═══════════════════════════════════════════════════════════════
+  AFTER ADDING ICON:
+═══════════════════════════════════════════════════════════════
+
+1. Verify file exists: NetViewInstaller/resources/app_icon.ico
+2. Run: build.bat
+3. Check: build/bin/Release/NetView.exe has icon
+4. Run: build_installer.bat
+5. Your installer is ready!
+
+═══════════════════════════════════════════════════════════════
+  ICON WILL APPEAR IN:
+═══════════════════════════════════════════════════════════════
+
+✓ Window title bars
+✓ Taskbar
+✓ Task Manager
+✓ File Explorer (exe icon)
+✓ Installer window
+✓ Desktop shortcut
+✓ Start Menu
+
+═══════════════════════════════════════════════════════════════
+
+For detailed instructions, see: ICON_REQUIREMENTS.md
+
+═══════════════════════════════════════════════════════════════
